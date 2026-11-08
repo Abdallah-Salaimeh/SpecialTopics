@@ -1,0 +1,17 @@
+virenv/
+.venv/
+venv/
+__pycache__/
+.git/
+.github/
+.vscode/
+.idea/
+.env
+mlflow.db
+mlruns/
+data/
+reports/
+tests/
+*.pyc
+.DS_Store
+Thumbs.db
