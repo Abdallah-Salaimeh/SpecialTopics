@@ -1,0 +1,32 @@
+
+label: severity
+
+id: cve_id
+
+time: published_at
+
+features:
+  text:
+    - description
+
+  categorical:
+    - assigner
+    - assigner_group
+    - vendor
+    - product
+
+  numeric: []
+
+not_features:
+  published_day: "Redundant because of published_at as it contains only the publication date."
+  cwe_ids: "it's ids so obviously not used as a model feature. BUT used separately by the (never wait) ranking rule"
+  n_affected: "Current count from the publisher's record and historical availability at publication isn't established."
+  n_references: "Current count from the publisher's record and historical availability at publication isn't established."
+  cvss_score: "it's avaialable after the sevirity which would cause leakage."
+  cvss_vector: "also same as cvss score so it causes which would cause leakage"
+  score_source: " only available after scoring."
+  scored_at: "Timestamp of scoring so it's unavailable at publication."
+  updated_at: "Timestamp of the last record modification, MIGHT reflect changes after publication."
+
+groups:
+  - assigner_group
