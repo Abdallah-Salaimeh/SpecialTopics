@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from specialtopics.model import build_model, train_model, predict_severity, predict_probabilities, predict_critical_probability
+from specialtopics.model import build_model, train_model, predict_severity, predict_probabilities, predict_critical_probability #type: ignore
 
 
 @pytest.fixture
