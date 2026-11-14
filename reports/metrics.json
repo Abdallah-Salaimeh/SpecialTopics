@@ -1,0 +1,754 @@
+{
+    "k_per_day": 40,
+    "days_evaluated": 61,
+    "days_with_k_or_fewer": 16,
+    "model": {
+        "critical_capture_at_k": 0.7395264116575592,
+        "hc_capture_at_k": 0.4103225806451613,
+        "critical_captured": 406,
+        "critical_total": 549,
+        "hc_captured": 1272,
+        "hc_total": 3100,
+        "critical_recall": 0.5865209471766849
+    },
+    "v0": {
+        "critical_capture_at_k": 0.41894353369763204,
+        "hc_capture_at_k": 0.30870967741935484,
+        "critical_captured": 230,
+        "hc_captured": 957
+    },
+    "by_assigner_group": {
+        "other": {
+            "model": {
+                "critical_capture_at_k": 0.7225433526011561,
+                "hc_capture_at_k": 0.43071965628356607
+            },
+            "v0": {
+                "critical_capture_at_k": 0.1329479768786127,
+                "hc_capture_at_k": 0.12030075187969924
+            },
+            "model_critical_captured": 125,
+            "model_critical_total": 173,
+            "model_hc_captured": 401,
+            "model_hc_total": 931,
+            "v0_critical_captured": 23,
+            "v0_hc_captured": 112
+        },
+        "top10": {
+            "model": {
+                "critical_capture_at_k": 0.7473404255319149,
+                "hc_capture_at_k": 0.40156754264638084
+            },
+            "v0": {
+                "critical_capture_at_k": 0.550531914893617,
+                "hc_capture_at_k": 0.3895804518211157
+            },
+            "model_critical_captured": 281,
+            "model_critical_total": 376,
+            "model_hc_captured": 871,
+            "model_hc_total": 2169,
+            "v0_critical_captured": 207,
+            "v0_hc_captured": 845
+        }
+    },
+    "daily_results": [
+        {
+            "day": "2025-11-01",
+            "cve_count": 27,
+            "critical_total": 2,
+            "critical_captured": 2,
+            "hc_total": 11,
+            "hc_captured": 11,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 11
+        },
+        {
+            "day": "2025-11-02",
+            "cve_count": 9,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 5,
+            "hc_captured": 5,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 5
+        },
+        {
+            "day": "2025-11-03",
+            "cve_count": 52,
+            "critical_total": 7,
+            "critical_captured": 7,
+            "hc_total": 22,
+            "hc_captured": 18,
+            "v0_critical_captured": 4,
+            "v0_hc_captured": 17
+        },
+        {
+            "day": "2025-11-04",
+            "cve_count": 227,
+            "critical_total": 9,
+            "critical_captured": 6,
+            "hc_total": 80,
+            "hc_captured": 29,
+            "v0_critical_captured": 1,
+            "v0_hc_captured": 15
+        },
+        {
+            "day": "2025-11-05",
+            "cve_count": 99,
+            "critical_total": 16,
+            "critical_captured": 13,
+            "hc_total": 40,
+            "hc_captured": 28,
+            "v0_critical_captured": 8,
+            "v0_hc_captured": 15
+        },
+        {
+            "day": "2025-11-06",
+            "cve_count": 213,
+            "critical_total": 26,
+            "critical_captured": 21,
+            "hc_total": 152,
+            "hc_captured": 37,
+            "v0_critical_captured": 3,
+            "v0_hc_captured": 25
+        },
+        {
+            "day": "2025-11-07",
+            "cve_count": 81,
+            "critical_total": 6,
+            "critical_captured": 6,
+            "hc_total": 20,
+            "hc_captured": 16,
+            "v0_critical_captured": 5,
+            "v0_hc_captured": 13
+        },
+        {
+            "day": "2025-11-08",
+            "cve_count": 39,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 11,
+            "hc_captured": 11,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 11
+        },
+        {
+            "day": "2025-11-09",
+            "cve_count": 5,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 0,
+            "hc_captured": 0,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 0
+        },
+        {
+            "day": "2025-11-10",
+            "cve_count": 100,
+            "critical_total": 4,
+            "critical_captured": 3,
+            "hc_total": 49,
+            "hc_captured": 24,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 18
+        },
+        {
+            "day": "2025-11-11",
+            "cve_count": 285,
+            "critical_total": 15,
+            "critical_captured": 12,
+            "hc_total": 120,
+            "hc_captured": 31,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 6
+        },
+        {
+            "day": "2025-11-12",
+            "cve_count": 131,
+            "critical_total": 11,
+            "critical_captured": 11,
+            "hc_total": 83,
+            "hc_captured": 32,
+            "v0_critical_captured": 9,
+            "v0_hc_captured": 21
+        },
+        {
+            "day": "2025-11-13",
+            "cve_count": 138,
+            "critical_total": 5,
+            "critical_captured": 3,
+            "hc_total": 35,
+            "hc_captured": 17,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 10
+        },
+        {
+            "day": "2025-11-14",
+            "cve_count": 82,
+            "critical_total": 5,
+            "critical_captured": 4,
+            "hc_total": 25,
+            "hc_captured": 14,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 9
+        },
+        {
+            "day": "2025-11-15",
+            "cve_count": 26,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 5,
+            "hc_captured": 5,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 5
+        },
+        {
+            "day": "2025-11-16",
+            "cve_count": 23,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 10,
+            "hc_captured": 10,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 10
+        },
+        {
+            "day": "2025-11-17",
+            "cve_count": 115,
+            "critical_total": 4,
+            "critical_captured": 4,
+            "hc_total": 52,
+            "hc_captured": 19,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 10
+        },
+        {
+            "day": "2025-11-18",
+            "cve_count": 158,
+            "critical_total": 14,
+            "critical_captured": 10,
+            "hc_total": 53,
+            "hc_captured": 26,
+            "v0_critical_captured": 8,
+            "v0_hc_captured": 19
+        },
+        {
+            "day": "2025-11-19",
+            "cve_count": 95,
+            "critical_total": 11,
+            "critical_captured": 9,
+            "hc_total": 45,
+            "hc_captured": 25,
+            "v0_critical_captured": 8,
+            "v0_hc_captured": 20
+        },
+        {
+            "day": "2025-11-20",
+            "cve_count": 80,
+            "critical_total": 8,
+            "critical_captured": 8,
+            "hc_total": 30,
+            "hc_captured": 21,
+            "v0_critical_captured": 5,
+            "v0_hc_captured": 15
+        },
+        {
+            "day": "2025-11-21",
+            "cve_count": 137,
+            "critical_total": 6,
+            "critical_captured": 6,
+            "hc_total": 29,
+            "hc_captured": 23,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 10
+        },
+        {
+            "day": "2025-11-22",
+            "cve_count": 8,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 2,
+            "hc_captured": 2,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 2
+        },
+        {
+            "day": "2025-11-23",
+            "cve_count": 30,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 17,
+            "hc_captured": 17,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 17
+        },
+        {
+            "day": "2025-11-24",
+            "cve_count": 87,
+            "critical_total": 5,
+            "critical_captured": 5,
+            "hc_total": 39,
+            "hc_captured": 17,
+            "v0_critical_captured": 3,
+            "v0_hc_captured": 14
+        },
+        {
+            "day": "2025-11-25",
+            "cve_count": 95,
+            "critical_total": 17,
+            "critical_captured": 16,
+            "hc_total": 37,
+            "hc_captured": 28,
+            "v0_critical_captured": 14,
+            "v0_hc_captured": 22
+        },
+        {
+            "day": "2025-11-26",
+            "cve_count": 67,
+            "critical_total": 19,
+            "critical_captured": 18,
+            "hc_total": 44,
+            "hc_captured": 31,
+            "v0_critical_captured": 13,
+            "v0_hc_captured": 27
+        },
+        {
+            "day": "2025-11-27",
+            "cve_count": 45,
+            "critical_total": 6,
+            "critical_captured": 6,
+            "hc_total": 15,
+            "hc_captured": 15,
+            "v0_critical_captured": 4,
+            "v0_hc_captured": 12
+        },
+        {
+            "day": "2025-11-28",
+            "cve_count": 39,
+            "critical_total": 1,
+            "critical_captured": 1,
+            "hc_total": 10,
+            "hc_captured": 10,
+            "v0_critical_captured": 1,
+            "v0_hc_captured": 10
+        },
+        {
+            "day": "2025-11-29",
+            "cve_count": 15,
+            "critical_total": 1,
+            "critical_captured": 1,
+            "hc_total": 3,
+            "hc_captured": 3,
+            "v0_critical_captured": 1,
+            "v0_hc_captured": 3
+        },
+        {
+            "day": "2025-11-30",
+            "cve_count": 23,
+            "critical_total": 2,
+            "critical_captured": 2,
+            "hc_total": 7,
+            "hc_captured": 7,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 7
+        },
+        {
+            "day": "2025-12-01",
+            "cve_count": 117,
+            "critical_total": 10,
+            "critical_captured": 8,
+            "hc_total": 66,
+            "hc_captured": 32,
+            "v0_critical_captured": 7,
+            "v0_hc_captured": 21
+        },
+        {
+            "day": "2025-12-02",
+            "cve_count": 138,
+            "critical_total": 12,
+            "critical_captured": 11,
+            "hc_total": 47,
+            "hc_captured": 24,
+            "v0_critical_captured": 9,
+            "v0_hc_captured": 15
+        },
+        {
+            "day": "2025-12-03",
+            "cve_count": 77,
+            "critical_total": 9,
+            "critical_captured": 9,
+            "hc_total": 36,
+            "hc_captured": 27,
+            "v0_critical_captured": 5,
+            "v0_hc_captured": 18
+        },
+        {
+            "day": "2025-12-04",
+            "cve_count": 99,
+            "critical_total": 12,
+            "critical_captured": 9,
+            "hc_total": 63,
+            "hc_captured": 28,
+            "v0_critical_captured": 7,
+            "v0_hc_captured": 23
+        },
+        {
+            "day": "2025-12-05",
+            "cve_count": 117,
+            "critical_total": 4,
+            "critical_captured": 3,
+            "hc_total": 32,
+            "hc_captured": 23,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 12
+        },
+        {
+            "day": "2025-12-06",
+            "cve_count": 55,
+            "critical_total": 2,
+            "critical_captured": 2,
+            "hc_total": 25,
+            "hc_captured": 24,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 11
+        },
+        {
+            "day": "2025-12-07",
+            "cve_count": 23,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 7,
+            "hc_captured": 7,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 7
+        },
+        {
+            "day": "2025-12-08",
+            "cve_count": 188,
+            "critical_total": 9,
+            "critical_captured": 9,
+            "hc_total": 103,
+            "hc_captured": 25,
+            "v0_critical_captured": 5,
+            "v0_hc_captured": 27
+        },
+        {
+            "day": "2025-12-09",
+            "cve_count": 471,
+            "critical_total": 24,
+            "critical_captured": 11,
+            "hc_total": 208,
+            "hc_captured": 32,
+            "v0_critical_captured": 4,
+            "v0_hc_captured": 27
+        },
+        {
+            "day": "2025-12-10",
+            "cve_count": 200,
+            "critical_total": 19,
+            "critical_captured": 14,
+            "hc_total": 54,
+            "hc_captured": 29,
+            "v0_critical_captured": 10,
+            "v0_hc_captured": 26
+        },
+        {
+            "day": "2025-12-11",
+            "cve_count": 169,
+            "critical_total": 13,
+            "critical_captured": 10,
+            "hc_total": 109,
+            "hc_captured": 37,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 35
+        },
+        {
+            "day": "2025-12-12",
+            "cve_count": 206,
+            "critical_total": 11,
+            "critical_captured": 7,
+            "hc_total": 59,
+            "hc_captured": 27,
+            "v0_critical_captured": 3,
+            "v0_hc_captured": 10
+        },
+        {
+            "day": "2025-12-13",
+            "cve_count": 75,
+            "critical_total": 3,
+            "critical_captured": 3,
+            "hc_total": 20,
+            "hc_captured": 14,
+            "v0_critical_captured": 1,
+            "v0_hc_captured": 8
+        },
+        {
+            "day": "2025-12-14",
+            "cve_count": 44,
+            "critical_total": 1,
+            "critical_captured": 1,
+            "hc_total": 27,
+            "hc_captured": 25,
+            "v0_critical_captured": 1,
+            "v0_hc_captured": 26
+        },
+        {
+            "day": "2025-12-15",
+            "cve_count": 110,
+            "critical_total": 13,
+            "critical_captured": 6,
+            "hc_total": 56,
+            "hc_captured": 20,
+            "v0_critical_captured": 6,
+            "v0_hc_captured": 17
+        },
+        {
+            "day": "2025-12-16",
+            "cve_count": 241,
+            "critical_total": 23,
+            "critical_captured": 14,
+            "hc_total": 109,
+            "hc_captured": 32,
+            "v0_critical_captured": 9,
+            "v0_hc_captured": 15
+        },
+        {
+            "day": "2025-12-17",
+            "cve_count": 157,
+            "critical_total": 26,
+            "critical_captured": 16,
+            "hc_total": 70,
+            "hc_captured": 29,
+            "v0_critical_captured": 10,
+            "v0_hc_captured": 26
+        },
+        {
+            "day": "2025-12-18",
+            "cve_count": 372,
+            "critical_total": 32,
+            "critical_captured": 18,
+            "hc_total": 265,
+            "hc_captured": 35,
+            "v0_critical_captured": 5,
+            "v0_hc_captured": 28
+        },
+        {
+            "day": "2025-12-19",
+            "cve_count": 97,
+            "critical_total": 11,
+            "critical_captured": 8,
+            "hc_total": 48,
+            "hc_captured": 24,
+            "v0_critical_captured": 1,
+            "v0_hc_captured": 16
+        },
+        {
+            "day": "2025-12-20",
+            "cve_count": 19,
+            "critical_total": 2,
+            "critical_captured": 2,
+            "hc_total": 4,
+            "hc_captured": 4,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 4
+        },
+        {
+            "day": "2025-12-21",
+            "cve_count": 30,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 13,
+            "hc_captured": 13,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 13
+        },
+        {
+            "day": "2025-12-22",
+            "cve_count": 86,
+            "critical_total": 17,
+            "critical_captured": 13,
+            "hc_total": 51,
+            "hc_captured": 37,
+            "v0_critical_captured": 9,
+            "v0_hc_captured": 22
+        },
+        {
+            "day": "2025-12-23",
+            "cve_count": 144,
+            "critical_total": 22,
+            "critical_captured": 11,
+            "hc_total": 115,
+            "hc_captured": 39,
+            "v0_critical_captured": 10,
+            "v0_hc_captured": 24
+        },
+        {
+            "day": "2025-12-24",
+            "cve_count": 267,
+            "critical_total": 24,
+            "critical_captured": 12,
+            "hc_total": 156,
+            "hc_captured": 35,
+            "v0_critical_captured": 5,
+            "v0_hc_captured": 29
+        },
+        {
+            "day": "2025-12-25",
+            "cve_count": 31,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 18,
+            "hc_captured": 18,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 18
+        },
+        {
+            "day": "2025-12-26",
+            "cve_count": 47,
+            "critical_total": 4,
+            "critical_captured": 4,
+            "hc_total": 20,
+            "hc_captured": 18,
+            "v0_critical_captured": 2,
+            "v0_hc_captured": 14
+        },
+        {
+            "day": "2025-12-27",
+            "cve_count": 10,
+            "critical_total": 1,
+            "critical_captured": 1,
+            "hc_total": 3,
+            "hc_captured": 3,
+            "v0_critical_captured": 1,
+            "v0_hc_captured": 3
+        },
+        {
+            "day": "2025-12-28",
+            "cve_count": 44,
+            "critical_total": 0,
+            "critical_captured": 0,
+            "hc_total": 9,
+            "hc_captured": 9,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 6
+        },
+        {
+            "day": "2025-12-29",
+            "cve_count": 122,
+            "critical_total": 15,
+            "critical_captured": 14,
+            "hc_total": 68,
+            "hc_captured": 25,
+            "v0_critical_captured": 8,
+            "v0_hc_captured": 26
+        },
+        {
+            "day": "2025-12-30",
+            "cve_count": 232,
+            "critical_total": 29,
+            "critical_captured": 15,
+            "hc_total": 136,
+            "hc_captured": 29,
+            "v0_critical_captured": 5,
+            "v0_hc_captured": 25
+        },
+        {
+            "day": "2025-12-31",
+            "cve_count": 207,
+            "critical_total": 1,
+            "critical_captured": 1,
+            "hc_total": 52,
+            "hc_captured": 16,
+            "v0_critical_captured": 0,
+            "v0_hc_captured": 26
+        }
+    ],
+    "duplicates_removed": 49,
+    "periods": {
+        "training": "Before 2025-09",
+        "validation": "2025-09 to 2025-10",
+        "test": "2025-11 to 2025-12"
+    },
+    "selected_model_params": {
+        "C": 1.0,
+        "class_weight": "balanced"
+    },
+    "validation_candidates": [
+        {
+            "params": {
+                "C": 0.1,
+                "class_weight": null
+            },
+            "critical_capture_at_k": 0.7540603248259861,
+            "hc_capture_at_k": 0.3932181284642974,
+            "critical_recall": 0.18561484918793503
+        },
+        {
+            "params": {
+                "C": 1.0,
+                "class_weight": null
+            },
+            "critical_capture_at_k": 0.7842227378190255,
+            "hc_capture_at_k": 0.41082491033583307,
+            "critical_recall": 0.31322505800464034
+        },
+        {
+            "params": {
+                "C": 10.0,
+                "class_weight": null
+            },
+            "critical_capture_at_k": 0.7517401392111369,
+            "hc_capture_at_k": 0.4111509618519726,
+            "critical_recall": 0.3271461716937355
+        },
+        {
+            "params": {
+                "C": 0.1,
+                "class_weight": "balanced"
+            },
+            "critical_capture_at_k": 0.7563805104408353,
+            "hc_capture_at_k": 0.4039778284969025,
+            "critical_recall": 0.6566125290023201
+        },
+        {
+            "params": {
+                "C": 1.0,
+                "class_weight": "balanced"
+            },
+            "critical_capture_at_k": 0.7888631090487239,
+            "hc_capture_at_k": 0.410172807303554,
+            "critical_recall": 0.5707656612529002
+        },
+        {
+            "params": {
+                "C": 10.0,
+                "class_weight": "balanced"
+            },
+            "critical_capture_at_k": 0.7540603248259861,
+            "hc_capture_at_k": 0.4085425497228562,
+            "critical_recall": 0.45011600928074247
+        }
+    ],
+    "target_results": {
+        "critical_capture_at_k_overall": {
+            "required": 0.7,
+            "actual": 0.7395264116575592,
+            "met": true
+        },
+        "hc_capture_at_k_overall": {
+            "required": 0.35,
+            "actual": 0.4103225806451613,
+            "met": true
+        },
+        "critical_capture_at_k_min_group": {
+            "required": 0.6,
+            "actual": 0.7225433526011561,
+            "met": true
+        },
+        "improvement_over_v0": {
+            "required": 0.1,
+            "actual": 0.3205828779599271,
+            "met": true
+        }
+    }
+}
