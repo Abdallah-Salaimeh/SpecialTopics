@@ -1,0 +1,10 @@
+capacity:
+  k_per_day: 40
+
+targets:
+  critical_capture_at_k:
+    overall: 0.70
+    min_per_assigner_group: 0.60
+  hc_capture_at_k:
+    overall: 0.35
+  beat_v0_by: 0.10
