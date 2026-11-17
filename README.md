@@ -1,4 +1,3 @@
-
 # SpecialTopics — CVE Triage Assistant
 
 A machine learning system that prioritizes Common Vulnerabilities and Exposures (CVEs) for security analyst review.
@@ -18,11 +17,20 @@ The prediction is a prioritization estimate, not a replacement for a CVSS score.
 
 Python 3.13 is required.
 
-Create and activate a virtual environment:
+Create and activate a virtual environment.
+
+### Linux or macOS
 
 ```bash
 python3 -m venv virenv
 source virenv/bin/activate
+```
+
+### Windows PowerShell
+
+```powershell
+py -3.13 -m venv virenv
+.\virenv\Scripts\Activate.ps1
 ```
 
 Install the project:
@@ -61,6 +69,8 @@ docker build -t cve-triage:0.1.0 .
 
 ## Run the Docker Image
 
+### Linux or macOS
+
 ```bash
 docker run --rm \
   -v "$(pwd)/data:/data" \
@@ -69,14 +79,86 @@ docker run --rm \
   --output /data/ranked.csv
 ```
 
+### Windows PowerShell
+
+```powershell
+docker run --rm `
+  -v "${PWD}/data:/data" `
+  cve-triage:0.1.0 `
+  --input /data/day_sample.csv `
+  --output /data/ranked.csv
+```
+
+## Publish the Docker Image
+
+Create a Docker Hub repository named `cve-triage` under the `salaimeha` account and make it public. The published image is `salaimeha/cve-triage:0.1.0`. Publish the versioned tag; do not use `latest`.
+
+### Windows PowerShell
+
+```powershell
+$DockerHubUser = "salaimeha"
+$Image = "$DockerHubUser/cve-triage:0.1.0"
+
+docker login --username $DockerHubUser
+docker build -t $Image .
+docker push $Image
+```
+
+### Linux or macOS
+
+```bash
+DOCKERHUB_USER="salaimeha"
+IMAGE="$DOCKERHUB_USER/cve-triage:0.1.0"
+
+docker login --username "$DOCKERHUB_USER"
+docker build -t "$IMAGE" .
+docker push "$IMAGE"
+```
+
+## Run the Published Docker Image
+
+Place the course-provided `day_sample.csv` in the local `data/` directory.
+
+### Windows PowerShell
+
+```powershell
+$DockerHubUser = "salaimeha"
+$Image = "$DockerHubUser/cve-triage:0.1.0"
+
+docker run --rm `
+  -v "${PWD}/data:/data" `
+  $Image `
+  --input /data/day_sample.csv `
+  --output /data/ranked.csv
+```
+
+### Linux or macOS
+
+```bash
+DOCKERHUB_USER="salaimeha"
+IMAGE="$DOCKERHUB_USER/cve-triage:0.1.0"
+
+docker run --rm \
+  -v "$(pwd)/data:/data" \
+  "$IMAGE" \
+  --input /data/day_sample.csv \
+  --output /data/ranked.csv
+```
+
+Check the output with the course-provided `check_submission.py`:
+
+```bash
+python check_submission.py data/ranked.csv
+```
+
 ## Output Format
 
 The ranked CSV contains:
 
-- cve_id
-- rank
-- score
-- model_version
+- `cve_id`
+- `rank`
+- `score`
+- `model_version`
 
 Rank 1 is the highest-priority CVE for review.
 
