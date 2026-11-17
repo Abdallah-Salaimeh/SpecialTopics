@@ -10,4 +10,4 @@ This screenshot shows the recorded Phase 1 training runs.
 
 This screenshot shows the registered `cve-triage` model and version 2.
 
-![Registered cve-triage model](phase1-evidence/registered-model.png)
+![Registered cve-triage model](phase1-evidence/registered_model_status.png)
